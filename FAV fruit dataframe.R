@@ -1,0 +1,10 @@
+# create Fav Fruit dataframe
+fruit<- c("mango","pineapple","cherry","banana")
+score<- c(3,1,2,4)
+ranking<- data.frame(fruit,score)
+mutate(ranking,taste<- c("sour","sour","sweet","sweet"))
+head(ranking)
+glimpse(ranking)
+taste<- c("sour","sour","sweet","sweet")
+ranking<- data.frame(fruit,score,taste)
+head(ranking)
